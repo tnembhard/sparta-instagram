@@ -1,0 +1,76 @@
+body{
+    background-color: #DCDCDC;
+}
+
+.container-1{
+    display:flex;
+    justify-content: flex-end;
+    }
+
+.container-1 div{
+    border:1px #ccc solid;
+    padding:10px;
+}
+
+.container-2{
+    display:flex;
+    justify-content: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:active{
+    color: red;
+}
+
+#or span{
+    background:white;
+    padding:5px;
+    transform: translateY(-10px);
+}
+
+.button{
+    background-color: #3399ff;
+    color: #fff;
+    padding:10px 15px;
+    border:none;
+    width: 80%;
+}
+
+.logo{
+    size: 20%;
+}
+
+.box-1{
+    flex:1;
+    flex-basis: 49%;
+    background-image: url("../images/phonebase.png");
+    background-repeat: no-repeat;
+    
+}
+
+.box-2{
+    flex:1;
+    flex-basis: 15%;
+    background-color:white;
+ 
+}
+
+.box-3{
+    flex:1;
+    flex-basis: 19%;
+  
+}
+
+.container-1 form{
+    width:100%;   
+}
+
+.insta-form input[type="submit"{
+    background-color: #3399ff;
+    color: #fff;
+    border:none;
+    width: 100%;
+}
